@@ -1,0 +1,1112 @@
+.nav {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &__logo {
+    height: 44px;
+    background-image: url(assets/icons/upgrade-logo-white.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    margin-left: 32px;
+  }
+
+  &__items {
+    font-family: "Work Sans", sans-serif;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  &__items:hover {
+    text-decoration: underline;
+  }
+
+  &__pink-box {
+    font-family: "Work Sans", sans-serif;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #fabada;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-left: 23px;
+    padding-right: 23px;
+    margin-left: 31px;
+    margin-right: 34px;
+    border-radius: 8px;
+  }
+
+  &__pink-box:hover {
+    text-decoration: underline;
+  }
+}
+
+.banner-info {
+  &__title {
+    font-family: "Work Sans", sans-serif;
+    color: white;
+    font-size: 53px;
+    font-weight: bold;
+  }
+
+  &__subtitle {
+    font-family: "Work Sans", sans-serif;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+  }
+}
+
+.container {
+  &__video {
+    width: 100%;
+    height: 578px;
+    object-fit: cover;
+  }
+
+  &__bar {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  &__text {
+    position: absolute;
+    top: 145px;
+    left: 80px;
+    width: 849px;
+  }
+}
+
+.dates {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+
+  &__text-box {
+    margin-top: 30px;
+  }
+
+  &__text-font {
+    font-family: "Work Sans", sans-serif;
+    font-size: 25px;
+    margin: 0;
+    font-weight: bold;
+  }
+
+  &__text-font-two {
+    font-family: "Work Sans", sans-serif;
+    font-size: 25px;
+    margin: 0;
+    padding-left: 280px;
+    font-weight: bold;
+  }
+}
+
+.padding-top-boxes {
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: end;
+}
+
+.boxes {
+  width: 993px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 327px;
+}
+
+.box-dates {
+  
+  background-color: rgb(247, 247, 247);
+  width: 460px;
+  margin-right: 9px;
+  margin-bottom: 9px;
+  display: flex;
+    box-shadow: 0px 2px 3px grey;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  &__container {
+    flex-grow: 1;
+  }
+
+  &__title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 2px;
+  }
+
+  &__text {
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    margin-top: 1px;
+  }
+
+  &__img {
+    width: 60px;
+    height: 60px;
+    align-self: center;
+  }
+}
+
+.time {
+  &__part {
+    display: flex;
+  }
+
+  &__part-two {
+    display: flex;
+    margin-top: 12px;
+  }
+
+  &__img-one {
+    background-image: url(assets/icons/media.png);
+    width: 57px;
+    height: 57px;
+  }
+
+  &__img-two {
+    background-image: url(assets/icons/entera.png);
+    width: 57px;
+    height: 57px;
+  }
+
+  &__small-text {
+    margin-top: 9px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+  }
+
+  &__normal-text {
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+  }
+
+  &__bold-text {
+    font-family: "Work Sans", sans-serif;
+    font-weight: bold;
+    margin: 0;
+    font-size: 23px;
+  }
+}
+
+.companies {
+  &__numbers {
+    width: 364px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  &__first-block {
+    margin-left: 315px;
+    margin-right: 315px;
+    margin-top: 76px;
+
+    display: flex;
+    height: 238px;
+  }
+
+  &__text {
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    width: 453px;
+    margin-left: 391px;
+  }
+
+  &__logos-box {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    width: 181px;
+  }
+
+  &__medium-text-bold {
+    font-family: "Work Sans", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 86px;
+    height: 137px;
+    margin-bottom: 0;
+  }
+}
+
+.upgraders {
+  display: flex;
+
+  &__box-one {
+    background-image: url(assets/testimonials/elena_martin.jpg);
+    height: 252px;
+    background-repeat: no-repeat;
+    width: 472px;
+    background-size: 100%;
+    background-position-x: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-size: cover;
+  }
+
+  &__box-two {
+    background-image: url(assets/testimonials/testimonial_1.jpg);
+    height: 252px;
+    background-repeat: no-repeat;
+    width: 472px;
+    background-size: 100%;
+    background-position-x: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-size: cover;
+  }
+
+  &__box-three {
+    background-image: url(assets/testimonials/carmen_mallado.jpg);
+    height: 252px;
+    background-repeat: no-repeat;
+    width: 472px;
+    background-size: 100%;
+    background-position-x: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-size: cover;
+  }
+
+  &__box-four {
+    background-image: url(assets/testimonials/alberto_torres.jpg);
+    height: 252px;
+    background-repeat: no-repeat;
+    width: 472px;
+    background-size: 100%;
+    background-position-x: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-size: cover;
+  }
+
+  &__title {
+    font-family: "Work Sans", sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    margin: 0;
+    padding-left: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  &__subtitle {
+    font-family: "Work Sans", sans-serif;
+    color: white;
+    font-size: 16px;
+    margin: 0;
+        padding-left: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding-bottom: 8px;
+  }
+}
+
+.button {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+
+    &__blue {
+    background-color: blue;
+    font-family: "Work Sans", sans-serif;
+    color: white;
+    font-size: 17px;
+    padding: 10px 40px 10px 40px;
+    border-radius: 11px;
+    
+    }
+
+    &__blue:hover {
+      text-decoration: underline;
+    }
+}
+
+.bootcamp-blocks {
+    margin-left: 205px;
+    margin-right: 205px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    &__container-one {
+      display: flex;
+    flex-direction: column;
+        height: 500px;
+        width: 500px;
+        background-image: url(assets/bootcamps/fullstack-img-chooser.jpg);
+    }
+
+    &__container-two {
+      display: flex;
+    flex-direction: column;
+        height: 500px;
+        width: 500px;
+        background-image: url(assets/bootcamps/ciber-img-chooser.jpg);
+    }
+
+    &__container-three {
+      display: flex;
+    flex-direction: column;
+        height: 500px;
+        width: 500px;
+        background-image: url(assets/bootcamps/uxui-img-chooser.jpg);
+    }
+
+    &__container-four {
+      display: flex;
+    flex-direction: column;
+        height: 500px;
+        width: 500px;
+        background-image: url(assets/bootcamps/frontend-img-chooser.jpg);
+    }
+
+    &__yellow-button {
+      align-self: flex-end;
+      font-family: "Work Sans", sans-serif;
+      background-color: rgb(248, 211, 44);
+      padding: 14px;
+    border-radius: 11px;
+    margin-right: 13px;
+    margin-top: 31px;
+    margin-bottom: 0;
+    }
+
+    &__yellow-button:hover {
+      text-decoration: underline;
+    }
+
+    &__blue-button {
+      align-self: flex-end;
+      font-family: "Work Sans", sans-serif;
+      background-color: rgb(65, 255, 230);
+      padding: 14px;
+    border-radius: 11px;
+    margin-right: 13px;
+    margin-top: 31px;
+    margin-bottom: 0;
+    }
+
+    &__blue-button:hover {
+      text-decoration: underline;
+    }
+
+    &__title {
+        font-family: "Work Sans", sans-serif;
+        color: white;
+        font-weight: bold;
+        font-size: 35px;
+        padding-left: 20px;
+        flex-grow: 1;
+    }
+
+    &__title-two {
+      font-family: "Work Sans", sans-serif;
+      color: white;
+      font-weight: bold;
+      font-size: 35px;
+      padding-left: 20px;
+      flex-grow: 1;
+    margin-top: 83px;
+    }
+
+    &__arrow {
+        font-family: "Work Sans", sans-serif;
+        color: white;
+                font-size: 103px;
+        margin: 0;
+        align-self: flex-end;
+        margin-right: 13px;
+            
+      }
+}
+
+.hand-option {
+  margin-top: 30px;
+  display: flex;
+    justify-content: center;
+
+  &__icon{
+    width: 54px;
+
+  }
+
+  &__title {
+    font-family: "Work Sans", sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+
+  }
+}
+
+.numbers-container {
+  margin-left: 445px;
+    margin-right: 445px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  &__box {
+    width: 314px;
+  }
+
+  &__number {
+    font-family: "Work Sans", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: -4px;
+  }
+
+  &__title {
+    font-family: "Work Sans", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  &__text {
+
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+  }
+
+}
+
+.more-info {
+  background-color: #4a40ec;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 42px;
+  margin-top: 20px;
+
+
+   &__box-text{
+    width: 611px;
+
+    }
+
+    &__title {
+      font-family: "Work Sans", sans-serif;
+      color: white;
+      font-weight: bold;
+      font-size: 30px;
+
+    }
+
+    &__regular-text {
+      font-family: "Work Sans", sans-serif;
+      color: white;
+      font-size: 20px;
+
+    }
+
+    &__form {
+      width: 900px;
+
+    }
+
+    &__input-text {
+      font-family: "Work Sans", sans-serif;
+      color: white;
+      font-size: 18px;
+      
+    }
+
+    &__bar {
+      width: 100%;
+      height: 29px;
+      border-radius: 7px;
+      border-width: 0px;
+    }
+
+    &__small-text {
+      font-family: "Work Sans", sans-serif;
+      color: white;
+      font-size: 13px;
+      margin: 0;
+      margin-left: 6px;
+    }
+
+    &__flex-checkbox-container {
+      display: flex;
+      margin-top: 52px;
+    }
+
+    &__button {
+      font-family: "Work Sans", sans-serif;
+      color: white;
+      background-color: #a4a0f7;
+      padding: 6px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 6px;
+    border-width: 0px;
+    margin-left: 15px;
+    margin-top: 12px;
+    margin-bottom: 26px;
+    }
+
+}
+
+.fieldset-no-border {
+
+      border-width: 0px;
+   
+}
+
+.footer-color {
+  background-color:#161616 ;
+  display: flex;
+  padding-top: 60px;
+    margin-bottom: 68px;
+    height: 180px;
+
+ }
+
+ .box-logo {
+
+  margin-left: 300px;
+    margin-right: 143px;
+
+   
+    
+
+    &__text {
+
+        font-family: "Work Sans", sans-serif;
+        text-decoration: underline;
+        color: white;
+        margin: 0px;
+     
+    }
+ }
+
+ .box-list {
+  
+    border-left: 2px white solid;
+  padding-left: 37px;
+  height: 124px;
+ 
+ }
+
+ .box-social-media {
+  flex-grow: 1;
+  padding-left: 499px;
+ }
+
+ @media only screen and (min-width:1024px) and (max-width: 1520px) {
+  .padding-top-boxes {
+    justify-content: center;
+  }  
+  
+  .boxes {
+      width: 500px;
+      margin-left: 2px;
+    }
+
+ 
+ .companies {
+
+  &__first-block{
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 55px;
+  }
+
+  &__logos-box{
+    margin-left: 24px;
+    margin-right: 24px;
+
+  }
+
+  &__text {
+    margin-top: 20px;
+    margin-left: 0px;
+    
+  }
+ }
+
+.upgraders {
+  flex-wrap: wrap;
+}
+
+.numbers-container {
+  margin-left: 200px;
+    margin-right: 150px;
+}
+
+.more-info {
+  flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box-logo {
+  margin-left: 100px;
+    margin-right: 143px;
+}
+
+.box-list {
+  margin-left: 100px;
+    margin-top: 32px;
+    border-left: 0;
+    padding-left: 0px;
+    
+}
+
+.footer-color {
+  flex-direction: column;
+  height: 310px;
+}
+
+.box-social-media{
+  position: absolute;
+  left: 300px;
+}
+
+}
+
+@media only screen and (min-width:769px) and (max-width: 1023px) {
+
+.nav {
+
+&__logo {
+  height: 62px;
+}
+
+    &__items {
+      display: none;
+    }
+  
+
+  &__pink-box {
+    display: none; 
+  }
+}
+
+.container {
+
+  &__text {
+    position: absolute;
+    top: 145px;
+    left: 32px;
+    width: 500px;
+}
+  }
+
+  .dates {
+    padding-left: 60px;
+
+  }
+
+  .boxes {
+    margin-left: 60px;
+    width: 550px;
+  }
+  
+  .companies {
+
+    &__first-block{
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 55px;
+      margin-left: 275px;
+    }
+  
+    &__logos-box{
+      margin-left: 81px;
+      margin-right: 24px;
+      flex-wrap: wrap;
+  
+    }
+  
+    &__text {
+      margin-top: 20px;
+      margin-left: 0px;
+      
+    }
+    &__logo {
+      margin-bottom: 26px;
+      width: 139px;
+    }
+   }
+
+   .upgraders {
+     display: flex;
+     flex-wrap: wrap;
+
+     &__box-one {
+      width: 349px;
+     }
+
+     &__box-two {
+      width: 349px;
+     }
+
+     &__box-three {
+      width: 349px;
+     }
+
+     &__box-four {
+      width: 349px;
+     }
+
+   }
+
+   .numbers-container {
+    margin-left: 76px;
+    margin-right: 45px;
+   }
+   .more-info {
+    flex-wrap: wrap;
+      justify-content: center;
+  }
+  .box-logo {
+    margin-left: 100px;
+      margin-right: 143px;
+  }
+  
+  .box-list {
+    margin-left: 100px;
+      margin-top: 32px;
+      border-left: 0;
+      padding-left: 0px;
+      
+  }
+  
+  .footer-color {
+    flex-direction: column;
+    height: 310px;
+  }
+  
+  .box-social-media{
+    position: absolute;
+      }
+}
+
+@media only screen and (min-width:480px) and (max-width: 768px) {
+  .nav {
+
+    &__logo {
+      height: 37px;
+    }
+    
+        &__items {
+          display: none;
+        }
+      
+    
+      &__pink-box {
+        display: none; 
+      }
+    }
+    
+    .container {
+    
+      &__text {
+        position: absolute;
+        top: 145px;
+        left: 32px;
+        width: 386px;
+    }
+      }
+    
+      .dates {
+        padding-left: 60px;
+
+        &__text-font-two{
+          padding-left: 0px;
+        }
+
+      }
+    
+      .boxes {
+        margin-left: 60px;
+        
+      width: 307px;
+      }
+      
+      .companies {
+    
+        &__first-block{
+          flex-direction: column;
+          justify-content: center;
+          margin-bottom: 55px;
+          margin-left: 54px;
+        }
+      
+        &__logos-box{
+          margin-left: 81px;
+          margin-right: 24px;
+          flex-wrap: wrap;
+      
+        }
+      
+        &__text {
+          margin-top: 20px;
+          margin-left: 0px;
+          
+        }
+        &__logo {
+          margin-bottom: 26px;
+          width: 139px;
+        }
+       }
+    
+       .upgraders {
+         display: flex;
+         flex-wrap: wrap;
+    
+         &__box-one {
+          width: 282px;
+         }
+    
+         &__box-two {
+          width: 282px;
+         }
+    
+         &__box-three {
+          width: 282px;
+         }
+    
+         &__box-four {
+          width: 282px;
+         }
+    
+       }
+
+       .bootcamp-blocks {
+         margin-left: 10px;
+         margin-right: 10px;
+       }
+    
+       .numbers-container {
+        margin-left: 20px;
+        margin-right: 20px;
+        
+        &__box {
+          width: 262px;
+        }
+
+       }
+       .more-info {
+        flex-wrap: wrap;
+          justify-content: center;
+      }
+      .box-logo {
+        margin-left: 100px;
+          margin-right: 143px;
+      }
+      
+      .box-list {
+        margin-left: 100px;
+          margin-top: 32px;
+          border-left: 0;
+          padding-left: 0px;
+          
+      }
+      
+      .footer-color {
+        flex-direction: column;
+        height: 310px;
+      }
+      
+      .box-social-media{
+        position: absolute;
+        padding-left: 417px;
+          }
+}
+
+@media only screen and (min-width:320px) and (max-width: 479px) {
+  .nav {
+
+    &__logo {
+      height: 37px;
+    }
+    
+        &__items {
+          display: none;
+        }
+      
+    
+      &__pink-box {
+        display: none; 
+      }
+    }
+    
+    .container {
+    
+      &__text {
+        position: absolute;
+        top: 145px;
+        left: 32px;
+        width: 255px;
+
+        
+    }
+      }
+
+      .banner-info {
+        &__title {
+          font-size: 33px;
+        }
+
+        &__subtitle {
+          font-size: 13px;
+        }
+      }
+    
+      .dates {
+        padding-left: 20px;
+
+        &__text-font {
+          font-size: 15px;
+        }
+
+        &__text-font-two{
+          padding-left: 0px;
+          font-size: 15px;
+        }
+
+      }
+    
+      .padding-top-boxes {
+        flex-direction: column;
+      }
+
+      .boxes {
+        margin-left: 10px;
+        
+      width: 307px;
+      }
+
+      .time-options {
+        margin-left: 10px;
+              }
+      
+      .companies {
+    
+        &__first-block{
+          flex-direction: column;
+          justify-content: center;
+          margin-bottom: 10px;
+          margin-left: 10px;
+        }
+      
+        &__logos-box{
+          margin-left: -37px;
+          margin-right: 50px;
+          flex-direction: column;
+      
+        }
+
+        &__numbers {
+          font-size: 20px;
+        }
+      
+        &__text {
+          margin-top: 20px;
+          margin-left: 0px;
+          width: 276px;
+          
+        }
+        &__logo {
+          margin-bottom: 26px;
+          width: 139px;
+        }
+       }
+
+       .button {
+        margin-bottom: 55px;
+        margin-top: 55px;
+
+        &__blue {
+          padding: 10px 20px 10px 20px;
+        }
+
+       }
+    
+       .upgraders {
+         display: flex;
+         flex-wrap: wrap;
+    
+         &__box-one {
+          width: 282px;
+         }
+    
+         &__box-two {
+          width: 282px;
+         }
+    
+         &__box-three {
+          width: 282px;
+         }
+    
+         &__box-four {
+          width: 282px;
+         }
+    
+       }
+
+       .bootcamp-blocks {
+         margin-left: 10px;
+         margin-right: 10px;
+       }
+    
+       .numbers-container {
+        margin-left: 20px;
+        margin-right: 20px;
+        
+        &__box {
+          width: 262px;
+        }
+
+       }
+       .more-info {
+        flex-wrap: wrap;
+          justify-content: center;
+      }
+      .box-logo {
+        margin-left: 100px;
+          margin-right: 143px;
+      }
+      
+      .box-list {
+        margin-left: 100px;
+          margin-top: 32px;
+          border-left: 0;
+          padding-left: 0px;
+          
+      }
+      
+      .footer-color {
+        flex-direction: column;
+        height: 310px;
+      }
+      
+      .box-social-media{
+        position: absolute;
+        padding-left: 417px;
+          }
+}
